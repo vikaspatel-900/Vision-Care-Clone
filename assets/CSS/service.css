@@ -1,0 +1,439 @@
+.service-section-1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0px;
+    padding: 0px 90px;
+    background: linear-gradient(to right, #040404, #242424, #656565);
+    box-shadow: inset 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+}
+
+
+.service-section-1 h2 {
+    font-size: 55px;
+}
+
+.service-section-1 p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+/***************************************************************service-section-2*************************************************************/
+
+
+.service-section-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 40px;
+    padding: 100px 40px;
+}
+
+
+.service-section-2 div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.ser-sec2-left {
+    width: 35%;
+}
+
+.ser-sec2-left div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: blue;
+    column-gap: 5px;
+    font-size: 22px;
+}
+
+
+.ser-sec2-left div li {
+    width: 40px;
+    height: 2px;
+    background-color: blue;
+
+}
+
+.ser-sec2-left h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+
+
+
+.ser-sec2-right {
+    width: 47%;
+}
+
+
+
+
+
+/*****************************************************************service-section-3************************************************************/
+
+
+.service-section-3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: space-evenly;
+    padding: 40px 80px;
+}
+
+
+.service-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    box-shadow: 1px 1px 12px 1px rgba(128, 128, 128, 0.684);
+    padding: 30px;
+    border-radius: 8px;
+    padding-top: 50px;
+    position: relative;
+}
+
+
+.service-card img {
+    height: 250px;
+}
+
+
+.service-card button {
+    border: none;
+    width: max-content;
+    margin-top: 30px;
+    background: linear-gradient(to right, #040404, #242424, #656565);
+    padding: 3px 7px;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+.service-card button a {
+    color: white;
+}
+
+
+.service-card h2 {
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.service-card p {
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+/******************************************************************service-section-4*********************************************************/
+
+
+.service-section-4 {
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+    column-gap: 30px;
+    width: 100%;
+    background: linear-gradient(to right, #040404, #242424, #656565);
+    color: white;
+    padding: 30px 50px;
+    margin-bottom: 80px;
+}
+
+
+.service-section-4 form {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 0px 50px;
+}
+
+.service-section-4 form div {
+    display: flex;
+    column-gap: 20px;
+}
+
+
+
+.service-section-4 form div input {
+    width: 90%;
+    padding: 4px 8px;
+    height: 40px;
+    background: #262626;
+    color: #fff;
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;width: 90%;
+    padding: 4px 8px;
+    height: 43px;
+}
+
+
+
+.service-section-4 form div label {
+    width: 90px;
+}
+
+
+.service-section-4 form button {
+    width: max-content;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: #ff004f;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.service-section-4 form button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+
+
+.ser-sec4-first {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.ser-sec4-first h2 {
+    font-size: 45px;
+}
+
+.ser-sec4-first div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+
+.ser-sec4-first div li {
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    margin: 0px;
+}
+
+
+
+
+.ser-sec4-bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.ser-sec4-bottom h3 {
+    font-size: 25px;
+}
+
+
+.ser-sec4-first li {
+    width: 95%;
+    height: 1px;
+    background-color: rgba(210, 105, 30, 0.549);
+    margin-top: 30px;
+}
+
+
+.ser-sec4-bottom p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 80px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+/********************************************************************media************************************************************/
+
+
+
+
+@media only screen and (max-width:1100px){
+
+    .service-section-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+
+    .service-section-2 div{
+        width:100%;
+        text-align: justify;
+        
+    }
+
+
+
+    .service-section-4{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 40px;
+    }
+
+    .service-section-4 form,div{
+        width: 100%;
+    }
+
+    
+}
+
+
+
+
+@media only screen and (max-width:750px){
+
+
+    .service-section-1{
+        height: 200px;
+    }
+
+    .service-section-1 h2{
+        font-size: 30px;
+    }
+
+    .service-section-1 p,a{
+        font-size: 16px;
+    }
+
+
+    .service-section-2 div div{
+        font-size: 16px;
+    }
+
+
+    .service-section-4 div div li{
+        width: 60px;
+    }
+
+
+    .service-section-2 div h2{
+        font-size: 25px;
+    }
+
+    .service-section-2 div div p{
+        font-size: 14px;
+    }
+
+
+
+    .ser-sec4-first div{
+        font-size: 18px;
+    }
+
+    .ser-sec4-first h2{
+        font-size: 25px;
+    }
+
+    .ser-sec4-first p,h3{
+        font-size: 14px;
+    }
+
+
+    .service-section-4 form{
+        padding: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width:570px){
+    .service-card{
+        width: 300px;
+        height: max-content;
+        row-gap: 5px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .service-section-3{
+        padding: 15px;
+    }
+
+    .service-card img{
+        height: 160px;
+    }
+
+    .service-card h2{
+        font-size: 18px;
+    }
+
+
+    .service-card p{
+        font-size: 14px;
+    }
+
+
+    .service-section-4 form label{
+        font-size: 14px;
+    }
+
+    .service-section-4 form div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-section-4 form div input{
+       height: 35px;
+       width: 100%;
+       font-size: 14px;
+    }
+
+    .service-section-4{
+        padding: 15px 30px;
+    }
+
+
+    .service-section-4 form button{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
